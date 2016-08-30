@@ -3,13 +3,17 @@ body {
 }
 
 .column {
-    background: #eee;
+    /*background: #eee;*/
     border: 1px solid #ccc;
     border-radius: 4px;
     color: #777;
     padding: 5px;
     min-height: 30px;
     text-align: center;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .row {
@@ -21,9 +25,9 @@ body {
 }
 
 .column .column {
-    color: #eee;
-    background: #333;
-    border-color: #000;
+    /*color: #eee;*/
+    /*background: #333;*/
+    border-color: red;
 }
 
 @media only screen and (max-width: 550px) {
